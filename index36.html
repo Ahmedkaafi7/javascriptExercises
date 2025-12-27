@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Picker</title>
+
+    <style>
+      #colorPreview {
+        width: 200px;
+        height: 200px;
+        border: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        margin: 20px 0;
+      }
+
+      #colorHistory {
+        list-style: none;
+        padding: 0;
+      }
+
+      #colorHistory li {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <label>Choose a color:</label>
+    <input type="color" id="colorPicker" />
+
+    <div id="colorPreview">Color Preview</div>
+
+    <h2>Color History</h2>
+    <ul id="colorHistory"></ul>
+
+    <button id="clearHistoryButton">Clear History</button>
+
+    <script src="exercise36.js"></script>
+  </body>
+</html>
