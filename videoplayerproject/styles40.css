@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+}
+
+.video-player {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 600px;
+}
+
+.video-container video {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.video-info {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.progress-bar {
+    background: #e0e0e0;
+    height: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.progress {
+    background: #1db954;
+    width: 0%;
+    height: 100%;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.control-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.play-btn {
+    font-size: 40px;
+}
+
+.additional-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#volume {
+    width: 120px;
+}
