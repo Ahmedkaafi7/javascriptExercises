@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(135deg, #4e73df, #1cc88a);
@@ -80,4 +81,88 @@ button:hover {
     .select-row {
         flex-direction: column;
     }
+=======
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.select-row {
+    display: flex;
+    gap: 10px;
+}
+
+.select-row div {
+    flex: 1;
+}
+
+select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4e73df;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #2e59d9;
+}
+
+#result {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f8f9fc;
+    border-radius: 6px;
+    min-height: 50px;
+}
+
+
+@media (max-width: 500px) {
+    .select-row {
+        flex-direction: column;
+    }
+>>>>>>> 0e4b35255824107cd88c58f6dfdc69932cde19a4
 }
